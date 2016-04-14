@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844D3BF31CBF2F1300043504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D3BF21CBF2F1300043504 /* main.m */; };
+		844D3BF61CBF2F1300043504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D3BF51CBF2F1300043504 /* AppDelegate.m */; };
+		844D3BF91CBF2F1300043504 /* Gyms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844D3BF71CBF2F1300043504 /* Gyms.xcdatamodeld */; };
+		844D3BFC1CBF2F1300043504 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D3BFB1CBF2F1300043504 /* MasterViewController.m */; };
+		844D3BFF1CBF2F1300043504 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D3BFE1CBF2F1300043504 /* DetailViewController.m */; };
+		844D3C021CBF2F1300043504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D3C001CBF2F1300043504 /* Main.storyboard */; };
+		844D3C041CBF2F1300043504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D3C031CBF2F1300043504 /* Assets.xcassets */; };
+		844D3C071CBF2F1300043504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D3C051CBF2F1300043504 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844D3BEE1CBF2F1300043504 /* Gyms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gyms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D3BF21CBF2F1300043504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844D3BF41CBF2F1300043504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844D3BF51CBF2F1300043504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gyms.xcdatamodel; sourceTree = "<group>"; };
+		844D3BFA1CBF2F1300043504 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		844D3BFB1CBF2F1300043504 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		844D3BFD1CBF2F1300043504 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		844D3BFE1CBF2F1300043504 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		844D3C011CBF2F1300043504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844D3C031CBF2F1300043504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844D3C061CBF2F1300043504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844D3C081CBF2F1300043504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844D3BEB1CBF2F1300043504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844D3BE51CBF2F1300043504 = {
+			isa = PBXGroup;
+			children = (
+				844D3BF01CBF2F1300043504 /* Gyms */,
+				844D3BEF1CBF2F1300043504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844D3BEF1CBF2F1300043504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844D3BEE1CBF2F1300043504 /* Gyms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844D3BF01CBF2F1300043504 /* Gyms */ = {
+			isa = PBXGroup;
+			children = (
+				844D3BF41CBF2F1300043504 /* AppDelegate.h */,
+				844D3BF51CBF2F1300043504 /* AppDelegate.m */,
+				844D3BFA1CBF2F1300043504 /* MasterViewController.h */,
+				844D3BFB1CBF2F1300043504 /* MasterViewController.m */,
+				844D3BFD1CBF2F1300043504 /* DetailViewController.h */,
+				844D3BFE1CBF2F1300043504 /* DetailViewController.m */,
+				844D3C001CBF2F1300043504 /* Main.storyboard */,
+				844D3C031CBF2F1300043504 /* Assets.xcassets */,
+				844D3C051CBF2F1300043504 /* LaunchScreen.storyboard */,
+				844D3C081CBF2F1300043504 /* Info.plist */,
+				844D3BF71CBF2F1300043504 /* Gyms.xcdatamodeld */,
+				844D3BF11CBF2F1300043504 /* Supporting Files */,
+			);
+			path = Gyms;
+			sourceTree = "<group>";
+		};
+		844D3BF11CBF2F1300043504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844D3BF21CBF2F1300043504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844D3BED1CBF2F1300043504 /* Gyms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D3C0B1CBF2F1300043504 /* Build configuration list for PBXNativeTarget "Gyms" */;
+			buildPhases = (
+				844D3BEA1CBF2F1300043504 /* Sources */,
+				844D3BEB1CBF2F1300043504 /* Frameworks */,
+				844D3BEC1CBF2F1300043504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gyms;
+			productName = Gyms;
+			productReference = 844D3BEE1CBF2F1300043504 /* Gyms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844D3BE61CBF2F1300043504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SSAU;
+				TargetAttributes = {
+					844D3BED1CBF2F1300043504 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 844D3BE91CBF2F1300043504 /* Build configuration list for PBXProject "Gyms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844D3BE51CBF2F1300043504;
+			productRefGroup = 844D3BEF1CBF2F1300043504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844D3BED1CBF2F1300043504 /* Gyms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844D3BEC1CBF2F1300043504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D3C071CBF2F1300043504 /* LaunchScreen.storyboard in Resources */,
+				844D3C041CBF2F1300043504 /* Assets.xcassets in Resources */,
+				844D3C021CBF2F1300043504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844D3BEA1CBF2F1300043504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D3BFF1CBF2F1300043504 /* DetailViewController.m in Sources */,
+				844D3BFC1CBF2F1300043504 /* MasterViewController.m in Sources */,
+				844D3BF61CBF2F1300043504 /* AppDelegate.m in Sources */,
+				844D3BF91CBF2F1300043504 /* Gyms.xcdatamodeld in Sources */,
+				844D3BF31CBF2F1300043504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		844D3C001CBF2F1300043504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D3C011CBF2F1300043504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844D3C051CBF2F1300043504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D3C061CBF2F1300043504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844D3C091CBF2F1300043504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		844D3C0A1CBF2F1300043504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844D3C0C1CBF2F1300043504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gyms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slamur.app.Gyms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844D3C0D1CBF2F1300043504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gyms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slamur.app.Gyms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844D3BE91CBF2F1300043504 /* Build configuration list for PBXProject "Gyms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D3C091CBF2F1300043504 /* Debug */,
+				844D3C0A1CBF2F1300043504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D3C0B1CBF2F1300043504 /* Build configuration list for PBXNativeTarget "Gyms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D3C0C1CBF2F1300043504 /* Debug */,
+				844D3C0D1CBF2F1300043504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		844D3BF71CBF2F1300043504 /* Gyms.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */,
+			);
+			currentVersion = 844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */;
+			path = Gyms.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 844D3BE61CBF2F1300043504 /* Project object */;
+}

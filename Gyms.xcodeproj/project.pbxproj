@@ -31,6 +31,7 @@
 		844D3C031CBF2F1300043504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844D3C061CBF2F1300043504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844D3C081CBF2F1300043504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844D3C0E1CC1A31000043504 /* ExerciseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 				844D3C081CBF2F1300043504 /* Info.plist */,
 				844D3BF71CBF2F1300043504 /* Gyms.xcdatamodeld */,
 				844D3BF11CBF2F1300043504 /* Supporting Files */,
+				844D3C0E1CC1A31000043504 /* ExerciseType.h */,
 			);
 			path = Gyms;
 			sourceTree = "<group>";

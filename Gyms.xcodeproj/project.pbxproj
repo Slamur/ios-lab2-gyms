@@ -15,6 +15,7 @@
 		844D3C021CBF2F1300043504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D3C001CBF2F1300043504 /* Main.storyboard */; };
 		844D3C041CBF2F1300043504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D3C031CBF2F1300043504 /* Assets.xcassets */; };
 		844D3C071CBF2F1300043504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D3C051CBF2F1300043504 /* LaunchScreen.storyboard */; };
+		844D3C101CC1AB3B00043504 /* ExerciseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D3C0F1CC1AB3B00043504 /* ExerciseType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +23,7 @@
 		844D3BF21CBF2F1300043504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		844D3BF41CBF2F1300043504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		844D3BF51CBF2F1300043504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gyms.xcdatamodel; sourceTree = "<group>"; };
+		844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodeld; path = Gyms.xcdatamodel; sourceTree = "<group>"; };
 		844D3BFA1CBF2F1300043504 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		844D3BFB1CBF2F1300043504 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		844D3BFD1CBF2F1300043504 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -32,6 +33,9 @@
 		844D3C061CBF2F1300043504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844D3C081CBF2F1300043504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844D3C0E1CC1A31000043504 /* ExerciseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseType.h; sourceTree = "<group>"; };
+		844D3C0F1CC1AB3B00043504 /* ExerciseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseType.m; sourceTree = "<group>"; };
+		844D3C111CC1B0BF00043504 /* Gyms 1.0.1.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodeld; path = "Gyms 1.0.1.xcdatamodel"; sourceTree = "<group>"; };
+		844D3C121CC1B36900043504 /* Gyms_1.0.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gyms_1.0.2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 				844D3BF71CBF2F1300043504 /* Gyms.xcdatamodeld */,
 				844D3BF11CBF2F1300043504 /* Supporting Files */,
 				844D3C0E1CC1A31000043504 /* ExerciseType.h */,
+				844D3C0F1CC1AB3B00043504 /* ExerciseType.m */,
 			);
 			path = Gyms;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				844D3BFF1CBF2F1300043504 /* DetailViewController.m in Sources */,
 				844D3BFC1CBF2F1300043504 /* MasterViewController.m in Sources */,
 				844D3BF61CBF2F1300043504 /* AppDelegate.m in Sources */,
+				844D3C101CC1AB3B00043504 /* ExerciseType.m in Sources */,
 				844D3BF91CBF2F1300043504 /* Gyms.xcdatamodeld in Sources */,
 				844D3BF31CBF2F1300043504 /* main.m in Sources */,
 			);
@@ -317,6 +323,8 @@
 		844D3BF71CBF2F1300043504 /* Gyms.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				844D3C121CC1B36900043504 /* Gyms_1.0.2.xcdatamodel */,
+				844D3C111CC1B0BF00043504 /* Gyms 1.0.1.xcdatamodel */,
 				844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */,
 			);
 			currentVersion = 844D3BF81CBF2F1300043504 /* Gyms.xcdatamodel */;

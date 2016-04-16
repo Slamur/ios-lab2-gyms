@@ -10,10 +10,14 @@
 #define ExerciseType_h
 
 typedef enum : NSUInteger {
-    PushUps = (1 << 0), // отжимания
-    Squats = (1 << 1), // приседания
-    Press = (1 << 2), // пресс
-    Pulls = (1 << 3), // подтягивания
+    PushUps = 0, // отжимания
+    Squats = 1, // приседания
+    Press = 2, // пресс
+    Pulls = 3, // подтягивания
 } ExerciseType;
+
+extern const int SIZE_OF_EXERCISE_NAMES;
+
+extern NSString * const EXERCISE_NAMES[];
 
 #endif /* ExerciseType_h */

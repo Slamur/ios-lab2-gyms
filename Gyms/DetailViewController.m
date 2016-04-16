@@ -28,7 +28,12 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+        id exercises = [[self.detailItem valueForKey:@"exercises"] allObjects];
+        id dateDescription = [[self.detailItem valueForKey:@"date"] description];
+        
+        NSUInteger ec = [exercises count];
+        
+        self.detailDescriptionLabel.text = [NSString stringWithFormat:@"Exercises count %lu date %@", (unsigned long)ec, dateDescription];
     }
 }
 

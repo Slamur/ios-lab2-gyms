@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
-#import "MasterViewController.h"
+#import "GymsListViewController.h"
+#import "GymExercisesListViewController.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -25,7 +26,7 @@
     splitViewController.delegate = self;
 
     UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
+    GymsListViewController *controller = (GymsListViewController *)masterNavigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }

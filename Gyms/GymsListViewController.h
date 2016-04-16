@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  GymsListViewController.h
 //  Gyms
 //
 //  Created by Admin on 14.04.16.
@@ -11,7 +11,7 @@
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface GymsListViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 

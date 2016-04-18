@@ -20,14 +20,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-    navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
-    splitViewController.delegate = self;
+    
+    
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    GymsListViewController *gymsController = [navigationController.viewControllers lastObject];
+//    UISplitViewController *splitController = [gymsController.viewControllers lastObject];
+//    splitController.topViewController.navigationItem.leftBarButtonItem = navigationController.displayModeButtonItem;
+//    navigationController.delegate = self;
+//    UINavigationController *UINavigationController = [splitViewController.viewControllers lastObject];
+//    navigationController.topViewController.	navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
+//    splitController.delegate = self;
 
-    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    GymsListViewController *controller = (GymsListViewController *)masterNavigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+//    /UINavigationController *masterNavigationController = splitController.viewControllers[0];
+//    GymsListViewController *gymsController = (GymsListViewController *)masterNavigationController.topViewController;
+//    gymsController.managedObjectContext = self.managedObjectContext;
+    
+//    GymExercisesListViewController * exercisesController = (GymExercisesListViewController *)masterNavigationController.topViewController;
+    
     return YES;
 }
 

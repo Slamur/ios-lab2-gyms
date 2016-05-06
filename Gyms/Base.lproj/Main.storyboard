@@ -83,6 +83,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="uXD-b4-8Xm" kind="showDetail" id="8mP-97-4gu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -92,13 +95,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Master" id="Zdf-7t-Un8"/>
-                    <connections>
-                        <segue destination="uXD-b4-8Xm" kind="showDetail" id="nsw-KV-06c"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-386" y="-759"/>
+            <point key="canvasLocation" x="-394" y="-703"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="nXJ-Y6-f00">

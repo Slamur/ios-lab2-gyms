@@ -24,6 +24,12 @@
     
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     GymsListViewController *gymsController = [navigationController.viewControllers lastObject];
+    
+    gymsController.managedObjectContext = self.managedObjectContext;
+    navigationController.delegate = self;
+    
+    //gymsController.navigationItem.leftBarButtonItem = navigationController.displayModeButtonItem;
+    
 //    UISplitViewController *splitController = [gymsController.viewControllers lastObject];
 //    splitController.topViewController.navigationItem.leftBarButtonItem = navigationController.displayModeButtonItem;
 //    navigationController.delegate = self;

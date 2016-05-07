@@ -13,6 +13,8 @@
 
 @interface GymExercisesListViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
+@property (strong, nonatomic) id detailItem;
+
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;

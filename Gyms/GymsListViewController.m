@@ -7,6 +7,7 @@
 //
 
 #import "GymsListViewController.h"
+#import "GymExercisesListViewController.h"
 #import "DetailViewController.h"
 
 @interface GymsListViewController ()
@@ -22,7 +23,7 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
-    self.detailViewController = (DetailViewController *)[[self.childViewControllers lastObject] topViewController];
+//    self.detailViewController = (GymExercisesListViewController *)[[self.childViewControllers lastObject] topViewController];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -60,9 +61,10 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-        DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
+        GymExercisesListViewController *controller = (GymExercisesListViewController *)[[segue destinationViewController] topViewController];
         [controller setDetailItem:object];
-        controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
+        //controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
+        controller.managedObjectContext = self.managedObjectContext;
         controller.navigationItem.leftItemsSupplementBackButton = YES;
     }
 }

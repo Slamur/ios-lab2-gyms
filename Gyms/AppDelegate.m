@@ -23,10 +23,16 @@
     
     
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    GymsListViewController *gymsController = [navigationController.viewControllers lastObject];
-    
-    gymsController.managedObjectContext = self.managedObjectContext;
     navigationController.delegate = self;
+    
+    GymsListViewController *gymsController = [navigationController.viewControllers lastObject];
+    gymsController.managedObjectContext = self.managedObjectContext;
+
+    
+//    id temp = [gymsController.childViewControllers lastObject];
+//    GymExercisesListViewController *gymsExerciseViewController = (GymExercisesListViewController *)[temp topViewController];
+//    
+//    gymsExerciseViewController.managedObjectContext = self.managedObjectContext;
     
     //gymsController.navigationItem.leftBarButtonItem = navigationController.displayModeButtonItem;
     
